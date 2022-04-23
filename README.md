@@ -35,7 +35,7 @@ crontab - 0 * * * *  DISPLAY=:0 python my_script.py
 4) Example - Writing into the textbox. Textbox = web.find_element_by_css_selector('input[aria-labelledby="QuestionId_re8865ca7664940f58f276cd4834dfcf6 QuestionInfo_re8865ca7664940f58f276cd4834dfcf6"]') 
 5) Textbox.sendkey('HELLO WORLD')
 
-Head over to [Instructions]('https://github.com/wk981/Python-Office-Form-Automate-using-Selenium/tree/main/Instructions') for how to do it.
+Head over to [Instructions](https://github.com/wk981/Temperature-Office-Form-Automation/tree/main/Instructions) for how to do it.
 
 ### How does my script works?
 Selenium will be using chromedriver to browse the web and perform the instructions given in the script. I preferred web browser features for chromedriver are listed in my script as options. If you do not want to see your script performing the task physically, you can opt for _headless_ option.
