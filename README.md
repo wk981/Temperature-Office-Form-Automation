@@ -38,5 +38,5 @@ Well, You can actually! The reason why I used raspberry pi to host my scripts as
 
 Head over to [Instructions](https://github.com/wk981/Temperature-Office-Form-Automation/tree/main/Instructions) for how to do it.
 
-### How does my script works?
-Selenium will be using chromedriver to browse the web and perform the instructions given in the script. I preferred web browser features for chromedriver are listed in my script as options. If you do not want to see your script performing the task physically, you can opt for _headless_ option.
+### How does the script works?
+Selenium will be drived using chromedriver to browse the web and perform the instructions given in the script. I preferred web browser features for chromedriver are listed in my script as options. If you do not want to see your script performing the task physically, you can opt for _headless_ option. To make chromedriver works, we have to make a web object with webdriver.Chrome(chrome_options=options), you can use webdriver.Firefox(chrome_options=options) if you prefer firefox. Next, You can start writing codes to interact with the web interfaces(Textbox, Radiobutton etc). Finally, always quit the webdriver by using web.quit() to prevent any memory leak in your computer. Have fun automating!
