@@ -22,15 +22,15 @@ sudo apt install chromium-browser
 Type _crontab -e_ in Raspberry pi terminal
 crontab - 0 * * * *  DISPLAY=:0 python my_script.py
 
-## To use the telegrambot 
+# To use the telegrambot 
 1) Ensure that you have an .env created to store all your related API keys
 2) Open a terminal, key in python main.py
 
+# What is the point of a telegram bot?
+To have the bot to send me screenshot as a proof that I have done my temperature taking form.
+
 ### Why use raspberry pi and not cloud?
 Well, You can actually! The reason why I used raspberry pi to host my scripts as I bought one last year to mock around.
-
-### What is the point of a telegram bot?
-To have the bot to send me screenshot as a proof that I have done my temperature taking form.
 
 ### How to use Selenium?
 1) Inspect the Web by right clicking and pressing inspect
