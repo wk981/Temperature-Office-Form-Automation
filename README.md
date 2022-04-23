@@ -1,11 +1,13 @@
 # Python Office Form Automate Using Selenium
 I have been using python to automate temperature recording office form using selenium. My country has decided to lift the covid 19 restriction recently and I have decided to share my project.
 Due to the confidential and restricted contents from the form, I am only allowed to show the templates of my scripts.
+I used raspberry pi to host my scripts since I bought a raspberry pi to mock around.
 
 ## Technologies used
 Selenium
 PythonTelegramBotAPI
-Raspberry pi Crontab
+Raspberry pi 
+Crontab
 
 ## Project Setup
 ### PythonTelegramBotAPI
@@ -22,6 +24,7 @@ sudo apt install chromium-chromedriver
 sudo apt install chromium-browser
 
 ### Crontab
+Type _crontab -e_ in Raspberry pi terminal
 crontab - 0 * * * *  DISPLAY=:0 python my_script.py
 
 ## To use the telegrambot 
