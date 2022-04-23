@@ -1,0 +1,6 @@
+Radio Button
+web.find_element_by_css_selector("input[type='radio'][value='Visitor']").click()
+
+Temperature Textbox
+textbox = web.find_element_by_css_selector('input[aria-labelledby="QuestionId_re8865ca7664940f58f276cd4834dfcf6 QuestionInfo_re8865ca7664940f58f276cd4834dfcf6"]')
+textbox.send_keys(temperature)
