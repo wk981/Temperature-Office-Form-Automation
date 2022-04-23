@@ -29,10 +29,10 @@ crontab - 0 * * * *  DISPLAY=:0 python my_script.py
 # What is the point of a telegram bot?
 To have the bot to send me screenshot as a proof that I have done my temperature taking form.
 
-### Why use raspberry pi and not cloud?
+# Why use raspberry pi and not cloud?
 Well, You can actually! The reason why I used raspberry pi to host my scripts as I bought one last year to mock around.
 
-### How to use Selenium?
+# How to use Selenium?
 1) Inspect the Web by right clicking and pressing inspect
 2) Hover your mouse over the textbox or radio button and peer into the inspection menu on the right side
 3) Example - Clicking the Radio button. RadioButton = web.find_element_by_css_selector("input[type='radio'][value='Value']").click()
@@ -41,7 +41,7 @@ Well, You can actually! The reason why I used raspberry pi to host my scripts as
 
 Head over to [Instructions](https://github.com/wk981/Temperature-Office-Form-Automation/tree/main/Instructions) for how to do it.
 
-### How does the script works?
+# How does the script works?
 Selenium will be drived using chromedriver to browse the web and perform the instructions given in the script. I preferred web browser features for chromedriver are listed in my script as options. If you do not want to see your script performing the task physically, you can opt for _headless_ option. To make chromedriver works, we have to make a web object with webdriver.Chrome(chrome_options=options), you can use webdriver.Firefox(chrome_options=options) if you prefer firefox. Next, You can start writing codes to interact with the web interfaces(Textbox, Radiobutton etc). Finally, always quit the webdriver by using web.quit() to prevent any memory leak in your computer.
 
-### Have fun Automating!
+# Have fun Automating!
