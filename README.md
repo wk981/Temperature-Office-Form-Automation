@@ -4,10 +4,10 @@ Due to the confidential and restricted contents from the form, I am only allowed
 I used raspberry pi to host my scripts since I bought a raspberry pi to mock around.
 
 ## Technologies used
-Selenium
-PythonTelegramBotAPI
-Raspberry pi 
-Crontab
+#Selenium
+#PythonTelegramBotAPI
+#Raspberry pi 
+#Crontab
 
 ## Project Setup
 ### PythonTelegramBotAPI
