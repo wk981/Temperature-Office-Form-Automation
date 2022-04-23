@@ -29,6 +29,9 @@ crontab - 0 * * * *  DISPLAY=:0 python my_script.py
 ### Why use raspberry pi and not cloud?
 Well, You can actually! The reason why I used raspberry pi to host my scripts as I bought one last year to mock around.
 
+### What is the point of a telegram bot?
+To have the bot to send me screenshot as a proof that I have done my temperature taking form.
+
 ### How to use Selenium?
 1) Inspect the Web by right clicking and pressing inspect
 2) Hover your mouse over the textbox or radio button and peer into the inspection menu on the right side
