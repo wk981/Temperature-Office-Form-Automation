@@ -17,7 +17,7 @@ pip install selenium
 ### Chromium driver in Raspberry pi
 1) sudo apt install chromium-chromedriver
 2) sudo apt install chromium-browser
-# or
+## or
 1) Download chromedriver from https://chromedriver.chromium.org/downloads
 
 ### Crontab
