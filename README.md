@@ -15,8 +15,10 @@ pip install python-dotenv
 pip install selenium
 
 ### Chromium driver in Raspberry pi
-##sudo apt install chromium-chromedriver
-##sudo apt install chromium-browser
+1) sudo apt install chromium-chromedriver
+2) sudo apt install chromium-browser
+# or
+1) Download chromedriver from https://chromedriver.chromium.org/downloads
 
 ### Crontab
 Type _crontab -e_ in Raspberry pi terminal
